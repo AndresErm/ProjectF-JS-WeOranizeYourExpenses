@@ -21,9 +21,18 @@
          30% se asigna a los gastos personales
         
 ## 2. Fórmulas 
-      - Pa calcular descuentos: 50%, 20%, 30% 
-         Formula: 100 - descuento = Porcentaje Precio Con Descuento = Abreviados = "PPD"
-                  (precio * PPD)/100 = Precio Con Descuento (utilzar) = Abreviados = "PCD"
+      1.- Presentación =  50%, 20%, 30%.
+      2.- Codigo = (50%) = CP1, (60%) = CP2, (40%) = CP3 
+      3.- Formula[1]: 
+            (CANTIDAD.TOTAL * CP1) / 100 = (VAL.1) = newVarV1
+            newVarV1 = let valueStaticForRemaining = newVarV1.
+      4.- Formula[2]:
+      (to remember)! - "newVarV1 = valueStaticForRemaining".
+      (use this)! - "newVarV1 = (VAL.1) = newVarV1".
+            (newVarV1 * CP2) / 100 = VAL.2.
+            (newVarV1 * CP3) / 100 = VAL.3.
+      5.- Verificar si la suma de VAL.1, VAL.2, VAL.3 coincide con la -CANTIDAD.TOTAL-.
+      6.- Mostrar resultados. 
 
 ## 3. JS Definir...
       - Variables

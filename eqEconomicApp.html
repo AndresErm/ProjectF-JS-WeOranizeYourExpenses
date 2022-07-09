@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesApp.css">
+    <title>Equilibrio Economico By Dres</title>
+</head>
+
+<body>
+    <header id="header-principal-App">
+        <h1 class="header-title-app">M O N E Y <br> H A P P Y - A N D - R E A D Y</h1>
+    </header>
+    <section id="about-section-principal-app">
+        <div class="about-section-content-whit-text">
+            <p class="about-App"> 
+                Sientes que lo que ganas no te rinde para tu siguiente
+                pago, por más que trates de llevar un control para que esto
+                no suceda terminas enredado con los gastos del día a día.
+            </p>
+            <p class="about-App">
+                 Para ya utiliza nuestra app la cual mediante la regla 50 /20 / 30
+                y el conocimiento de tu sueldo y de tus días para el prximo pago te
+                ara un calculo de cuanto gastar por día en los gastos más básicos, 
+                cuanto ahorrar y cuanto gastar para tus gastos personales"
+               <br>
+               <br> 
+                50% se asigna para los gastos más básicos
+                <br>
+                20% se asigna para los ahorros
+                <br>
+                30% se asigna a los gastos personales
+            </p>
+        </div>
+    </section>
+    <section id="form-section-principal-app">
+        <form class="form-app">
+            <br>
+            <label for="InputGetSalaryNeto">
+                Escribe tu salario neto que ganas! 
+                <br>
+                <input id="InputGetSalaryNeto" type="number">
+            </label>
+            <br>
+            <!-- <label for="">
+                Escribe los días para tu proximo pago!
+                <br>
+                <input id="InputDaysNextPayment" type="number">
+            </label> -->
+            <br>
+            <button type="button" onclick="onClickButtonSpendYouSalariPerDay()">
+                Calcula tu equilibrio economico
+            </button>
+            <br>
+
+        </form>
+        <p id="ResultEquilibrioEconomic"></p>
+
+    </section>
+
+
+    <script src="economicAppCode.js"></script>
+</body>
+
+</html>
